@@ -1,5 +1,7 @@
 # Google Assistant/Gemini 语音唤醒修复 
 
+**安装模块前，请先安装 Google App；安装模块后需要重启两次。**
+
 KernelSU/systemless 模块，修复RedmiK90ProMax（POCO F8 Ultra）HyperOS 上 Hey Google 语音唤醒不支持的问题，同时支持息屏唤醒。
 
 ## 实现方法
@@ -11,7 +13,7 @@ KernelSU/systemless 模块，修复RedmiK90ProMax（POCO F8 Ultra）HyperOS 上 
 ## 配套设置
 
 - 电源键与小白条入口：[Gemini For HyperOS4（LSPosed 模块）](https://github.com/fulu2778/Gemini-For-HyperOS4)，提供长按电源键打开 Gemini、长按小白条打开圈定即搜。
-- 安装模块前，请先安装 Google App；安装模块后需要重启两次。
+- **安装模块前，请先安装 Google App；安装模块后需要重启两次。**
 
 ## 实机测试
 
