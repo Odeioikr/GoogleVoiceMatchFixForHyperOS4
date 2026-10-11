@@ -20,3 +20,7 @@ KernelSU/systemless 模块，修复RedmiK90ProMax（POCO F8 Ultra）HyperOS 上 
 - 模块：`v1.1-candidate`（versionCode `2`）
 
 息屏、亮屏锁屏及解锁后无需手动预激活的语音唤醒均通过。其他机型与版本未经验证。
+
+## 构建声明
+
+本项目完全使用 AI 和 omp 工具完成分析、代码编写、构建与仓库整理；实机语音测试由用户完成，使用的第三方原始组件不属于 AI 生成内容。
