@@ -1,0 +1,7 @@
+# Generated packages, diagnostics and local tooling
+*.zip
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

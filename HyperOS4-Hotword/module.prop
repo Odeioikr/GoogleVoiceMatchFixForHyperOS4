@@ -1,0 +1,6 @@
+id=hyperos4_google_hotword
+name=HyperOS4 Google Hotword Enrollment Candidate
+version=1.1-candidate
+versionCode=2
+author=GoogleAssistantFix
+description=Systemless Google hotword privileges and original myron Global enrollment components. Automatically allows Google lock-screen display. Verified on myron HyperOS 4 / Android 17; no vendor replacement.
