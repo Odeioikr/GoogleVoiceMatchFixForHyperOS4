@@ -6,6 +6,14 @@ done
 
 TAG=HyperOS4GoogleHotword
 PACKAGE=com.google.android.googlequicksearchbox
+MODDIR=${0%/*}
+if [ -f "$MODDIR/skip_mount" ]; then
+  if ! /data/adb/ksu/bin/busybox sh "$MODDIR/prepare.sh"; then
+    log -p e -t "$TAG" "Local Google preparation failed; mounting remains disabled."
+    exit 1
+  fi
+  log -p i -t "$TAG" "Local Google preparation complete; reboot again to activate module."
+fi
 if ! cmd appops set --user 0 "$PACKAGE" 10020 allow; then
   log -p e -t "$TAG" "Failed to allow Google lock-screen display (10020)."
   exit 1
