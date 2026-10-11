@@ -4,13 +4,14 @@ KernelSU/systemless 模块，修复RedmiK90ProMax（POCO F8 Ultra）HyperOS 上 
 
 ## 实现方法
 
-- 将设备现有 Google App 以 systemless 方式挂载为系统特权应用，补齐热词相关权限。
+- 复用设备已安装的 Google App，以 systemless 方式挂载为系统特权应用，补齐热词相关权限；安装包不包含 Google App。
 - 引入同机型海外 ROM 的原始热词注册 APK 和共享 JAR，使 Google 使用 Qualcomm DSP 硬件热词检测。
 - 在重启完成后自动允许并保存 Google“锁屏显示”权限，解除 HyperOS 对锁屏启动 Gemini 的拦截。
 
 ## 配套设置
 
 - 电源键与小白条入口：[Gemini For HyperOS4（LSPosed 模块）](https://github.com/fulu2778/Gemini-For-HyperOS4)，提供长按电源键打开 Gemini、长按小白条打开圈定即搜。
+- 安装模块前，请先安装 Google App；安装模块后需要重启两次。
 
 ## 实机测试
 
